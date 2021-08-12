@@ -1,8 +1,5 @@
 # 学習記録
-<style>
-  h2 {
-  border-top: 1px solid #ccbe9b;
-  border-bottom: 1px solid #ccbe9b;
-  }
-</style>
-<h2>2021/08/12</h2>
+ ## 2021/08/12
+1.  [日本一わかりやすいReact入門【実践編】](https://youtube.com/playlist?list=PLX8Rsrpnn3IVOk48awq_nKW0aFP0MGpnn)の#１〜#２を学習した。
+
+ 
