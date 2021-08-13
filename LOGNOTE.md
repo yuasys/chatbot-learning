@@ -12,7 +12,9 @@ title: React入門実践編
 
 ## 2021/08/13
 1. [＃３](https://youtu.be/ta2m6nfYHuQ)を学んだ。
-2. firebaseの設定で動画の情報は古い部分があってトラブったが、落ち着いて少しずつ確認しながらやってみたらうまく行った。
+
+
+1. firebaseの設定で動画の情報は古い部分があってトラブったが、落ち着いて少しずつ確認しながらやってみたらうまく行った。
 
 【本日の成果物】https://chatbot-demo-18799.web.app/
 
@@ -25,18 +27,18 @@ title: React入門実践編
 
 - デプロイの詳細手順
 [この手順](https://youtu.be/ta2m6nfYHuQ?t=382)を何度も繰り返して理解を深めよう！多少やり方は古いので、自分で調べながら工夫しながらやる必要はある。
-  1. [プロジェクトの作成](https://youtu.be/ta2m6nfYHuQ?t=457)
-  1. [リソースロケーションの設定](https://youtu.be/ta2m6nfYHuQ?t=538)
-  1. [firestoreのモード変更](https://youtu.be/ta2m6nfYHuQ?t=634)…本日現在ではこの通りはできなかった。![](https://i.imgur.com/Z3JUo7S.png)図のように既定でCloud Firestoreになっているので、いきなり「データベースの作成」ボタンのクリックでOK
-  1. [パッケージのインストール](https://youtu.be/ta2m6nfYHuQ?t=727)…下記のコマンドを実行してからエディタでプロジェクトを開きpackage.jsonファイルに"firebase"の記載があることを確認する
+1. [プロジェクトの作成](https://youtu.be/ta2m6nfYHuQ?t=457)
+1. [リソースロケーションの設定](https://youtu.be/ta2m6nfYHuQ?t=538)
+1. [firestoreのモード変更](https://youtu.be/ta2m6nfYHuQ?t=634)…本日現在ではこの通りはできなかった。![](https://i.imgur.com/Z3JUo7S.png)図のように既定でCloud Firestoreになっているので、いきなり「データベースの作成」ボタンのクリックでOK
+1. [パッケージのインストール](https://youtu.be/ta2m6nfYHuQ?t=727)…下記のコマンドを実行してからエディタでプロジェクトを開きpackage.jsonファイルに"firebase"の記載があることを確認する
   ```
   $ cd <プロジェクトフォルダ> #私の環境では/Users/yuasys/Desktop/chatbot-demo
   $ npm install -g firebase-tools
   $ npm install --save firebase
   ```
-  5. [firebase login](https://youtu.be/ta2m6nfYHuQ?t=874)
-  6. [firebase ini](https://youtu.be/ta2m6nfYHuQ?t=947)
-  7. [firebase deploy](https://youtu.be/ta2m6nfYHuQ?t=1170)…functions/src/index.tsの一行目は必ずコメントアウトしておく
+5. [firebase login](https://youtu.be/ta2m6nfYHuQ?t=874)
+1. [firebase ini](https://youtu.be/ta2m6nfYHuQ?t=947)
+1.  [firebase deploy](https://youtu.be/ta2m6nfYHuQ?t=1170)…functions/src/index.tsの一行目は必ずコメントアウトしておく
    ```
   // functions/src/index.ts
   ```
