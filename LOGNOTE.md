@@ -11,10 +11,10 @@ title: React入門実践編
 2.  実際のアプリ開発の流れで「バックエンド」から着手している点が納得できた。最終目標である「デプロイ」ができないとどうしようもないので、デプロイやデータの保存などの環境を担保してから、本題の「フロントエンド開発」に進むというやり方は大変良い。
 
 ## 2021/08/13
-1. [＃３](https://youtu.be/ta2m6nfYHuQ)を学んだ。
+### [#3 Firebaseプロジェクトの作成と初めてのデプロイ](https://youtu.be/ta2m6nfYHuQ)
 
 
-1. firebaseの設定で動画の情報は古い部分があってトラブったが、落ち着いて少しずつ確認しながらやってみたらうまく行った。
+firebaseの設定で動画の情報は古い部分があってトラブったが、落ち着いて少しずつ確認しながらやってみたらうまく行った。
 
 【本日の成果物】https://chatbot-demo-18799.web.app/
 
@@ -42,4 +42,31 @@ title: React入門実践編
    ```
   // functions/src/index.ts
   ```
-  
+### [#4 tateの設計とクラスコンポーネントの作成](https://youtu.be/ICr32kxTjG4)
+
+※図をクリックするとそれぞれの説明(動画)にジャンプします。
+
+#### [データモデル設計の始め方](https://youtu.be/ICr32kxTjG4?t=113)
+![](https://i.imgur.com/FHqvIx4.jpg) 
+
+#### [ルートで管理するstate](https://youtu.be/ICr32kxTjG4?t=215)
+
+[![](https://i.imgur.com/4AITgcg.jpg)](https://youtu.be/ICr32kxTjG4?t=238)
+
+[![](https://i.imgur.com/zO7owjJ.jpg)](https://youtu.be/ICr32kxTjG4?t=295)
+
+
+[![](https://i.imgur.com/SCm3r0m.jpg)](https://youtu.be/ICr32kxTjG4?t=357)
+
+
+[![](https://i.imgur.com/xwzEYYt.jpg)](https://youtu.be/ICr32kxTjG4?t=453)
+
+[![](https://i.imgur.com/uzQpti4.jpg)](https://youtu.be/ICr32kxTjG4?t=480)
+
+[![](https://i.imgur.com/0modxcL.jpg)](https://youtu.be/ICr32kxTjG4?t=495)
+
+
+### コーディング
+#### [src/App.js](https://youtu.be/ICr32kxTjG4?t=656)
+
+
